@@ -1,0 +1,167 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url("./tom1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.a {
+  background-image: url("./tom2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.s {
+background-image: url("./tom3.png");
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.d {
+  background-image: url("./tom4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.c {
+  background-image: url("./crash.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.k {
+  background-image: url("./kick.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.j{
+  background-image: url("./snare.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  text-transform: uppercase;
+  outline: none;
+  font-size: 4rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  color: #211f20;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+  align-self: center;
+  justify-content: center;
+  outline: none;
+  mix-blend-mode:multiply;
+  
+}
+.none{
+  visibility: hidden;
+}
+
+@media only screen and (min-width:370px) {
+  #title{
+    color: rgb(203, 70, 194);
+    text-shadow: 1px 2px 3px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .set{
+
+    display: grid;
+    grid-template:200px  / repeat(3, 1fr);
+    align-items: center;
+  }
+  
+  .drum{
+    height: 200px;
+    width: 250px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .d{
+    order: 1;
+  }
+  .j{
+    order: 2;
+  }
+  .k{
+    order: 5;
+  }
+  .w{
+    order: 4;
+  }
+  .a{
+    order: 6;
+  }
+  .c{
+    order: 8;
+  }
+  .s{
+    order: 3;
+  }
+  .none{
+    order: 7;
+  }
+  footer{
+    color: black;
+    font-size: 42px;
+  }
+}
