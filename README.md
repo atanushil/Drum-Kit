@@ -20,7 +20,7 @@ This is a simple web application called "Drum Kit" that allows users to play dru
 
 To use the Drum Kit:
 
-1. Open the <a href="/">Dram Kit</a> website in your web browser.
+1. Open the <a href="https://atanushil.github.io/Drum-Kit/">Dram Kit</a> website in your web browser.
 2. Press the keys on your keyboard corresponding to the drums you want to play (e.g., '1', '2', '3', '4', '5', '6', '0').
 3. Alternatively, tap the drum buttons on the screen with your mouse or finger to play sounds.
 
